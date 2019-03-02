@@ -1,0 +1,48 @@
+<html>
+<head>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <title>Beatsify</title>
+    <link rel="stylesheet" href="css/style.css" media="screen">
+</head>
+<body>
+<div id="container">
+	<div id="audio-image">
+		<img class="cover" />
+	</div>
+	<div id="audio-player">
+		<div id="audio-info">
+			<span class="artist"></span> - <span class="title"></span>
+		</div>
+		 <div id="buttons">
+		 <span>
+			<button id="prev"></button>
+			<button id="play"></button>
+			<button id="pause"></button>
+			<button id="stop"></button>
+			<button id="next"></button>
+			</span>
+		 </div>
+		<div class="clearfix"></div>
+		 <div id="tracker">
+			<div id="progressBar">
+				<span id="progress"></span>
+			</div>
+			<span id="duration"></span>
+		 </div>
+		 <div class="clearfix"></div>
+		 <br>
+		 <input id="volume" type="range" min="0" max="10" value="5" />
+		 <br>
+		 <div class="clearfix"></div>
+		 <ul id="playlist" class="hidden">
+			<li song="Coldplay - Fix You.mp3" artist="Coldplay">Coldplay - Fix You.mp3</li>
+			<li song="Markelody - Legendary.mp3" artist="Markelody">Markelody - Legendary</li>
+		</ul>
+	</div>
+
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
